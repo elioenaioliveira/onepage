@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Entre em contato, e responderemos no máximo em duas horas.</h1>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="b38bd1ea-4b47-40cd-b7bc-7fd098affcf8">
+            <fieldset>
+                <legend>Entre em contato conosco</legend>
+                <label for="nome">NOME:</label><input type="text" name="name" id="nome"> <br>
+                <label for="assunto">Assunto:</label><input type="text" name="subject" id="assunto"> <br>
+                <label for="email"> E-mail: </label><input type="text" name="email" id="email"> <br>
+                <label for="telefone">Celular:</label><input type="text" name="phone" id="telefone"><br>
+                <label for="mensagem">Escreva sua mensagem:</label><br><textarea name="message" id="mensagem"></textarea>
+                
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/email.html">
+                <input type="submit" value="Submit" />
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
